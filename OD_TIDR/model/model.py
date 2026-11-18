@@ -116,6 +116,7 @@ class ActiveNet(Algorithm):
 
         self.logger.info('sequence column blocks: {}'.format(self.seq_column_blocks))
 
+
         # Define model variables collection
         self.self_atten_collections_dnn_hidden_layer = "{}_self_atten_dnn_hidden_layer".format(self.model_name)
         self.self_atten_collections_dnn_hidden_output = "{}_self_atten_dnn_hidden_output".format(self.model_name)
